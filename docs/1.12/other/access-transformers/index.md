@@ -38,7 +38,7 @@ public net.minecraft.item.Item field_77774_bZ
 # Метод Item#registerItem(int, String, Item) станет публичным.
 public net.minecraft.item.Item func_179217_a(ILjava/lang/String;Lnet/minecraft/item/Item;)V
 ```
-Магическая строка `func_179217_a(ILjava/lang/String;Lnet/minecraft/item/Item;)V` это srg имя с дескриптором. Узнать их можно, например, при помощи программки [MCP Mapping Viewer](http://bspk.rs/MC/MCPMappingViewer/index.html). В ней интуитивно понятный интерфейс, так что проблем возникнуть не должно. Выбираем маппинги под нужную версию и через поиск ищем метод или поле.
+Магическая строка `func_179217_a(ILjava/lang/String;Lnet/minecraft/item/Item;)V` это srg имя с дескриптором. Узнать их можно, например, при помощи сервиса [Minecraft Names](https://mcp.thiakil.com/#/search). Выбираем маппинги под нужную версию и через поиск ищем метод или поле.
 
 После того как создали и заполнили файл `example_at.cfg`, необходимо добавить в файл `build.gradle` следующие строки:
 ```
