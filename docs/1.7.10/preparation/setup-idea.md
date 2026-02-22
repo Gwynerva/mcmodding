@@ -59,3 +59,23 @@ description: Настройка рабочего пространства для
 [![Настройка загрузки ресурсов](images/build_run_using_idea.png){: .border }](images/build_run_using_idea.png)
 
 Нажмите «OK» и ваш проект полностью готов к разработке мода в IntelliJ Idea!
+
+### Process finished with exit code -1073740791 (0xC0000409)
+
+В новых версиях IntelliJ IDEA при запуске Minecraft вы можете столкнуться со следующей ошибкой:
+
+[![Ошибка SCL](images/scl_error_idea.png){: .border }](images/scl_error_idea.png)
+
+В настройках конфигурации нажмите «Modify options»
+
+[![Modify options](images/fix_scl_idea-1.png){: .border }](images/fix_scl_idea-1.png)
+
+Найдите пункт «Shorten command line».
+
+[![Shorten command line](images/fix_scl_idea-2.png){: .border }](images/fix_scl_idea-2.png)
+
+Измените значение с «none» на «classpath file».
+
+[![Исправление SCL](images/fix_scl_idea-3.png){: .border }](images/fix_scl_idea-3.png)
+
+Нажмите «Apply» и повторите аналогичную процедуру для другой конфигурации.
