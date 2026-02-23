@@ -165,6 +165,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.fluids.FluidStack;
 import net.minecraftforge.fluids.ItemFluidContainer;
 import ru.mcmodding.tutorial.common.handler.ModTab;
+import ru.mcmodding.tutorial.McModding;
 
 import java.util.List;
 
@@ -173,7 +174,7 @@ public class FluidCellItem extends ItemFluidContainer {
         // Первое значение ни на что не влияет, вторым значением является кол-во вмещаемой жидкости.
         super(0, 5_000);
         setUnlocalizedName("fluid_cell");
-        setTextureName("fluid_cell");
+        setTextureName(McModding.MOD_ID + ":fluid_cell");
         setCreativeTab(ModTab.INSTANCE);
     }
     
