@@ -7319,6 +7319,7 @@
 <span class="kn">import</span><span class="w"> </span><span class="nn">net.minecraftforge.fluids.FluidStack</span><span class="p">;</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">net.minecraftforge.fluids.ItemFluidContainer</span><span class="p">;</span>
 <span class="kn">import</span><span class="w"> </span><span class="nn">ru.mcmodding.tutorial.common.handler.ModTab</span><span class="p">;</span>
+<span class="kn">import</span><span class="w"> </span><span class="nn">ru.mcmodding.tutorial.McModding</span><span class="p">;</span>
 
 <span class="kn">import</span><span class="w"> </span><span class="nn">java.util.List</span><span class="p">;</span>
 
@@ -7327,7 +7328,7 @@
 <span class="w">        </span><span class="c1">// Первое значение ни на что не влияет, вторым значением является кол-во вмещаемой жидкости.</span>
 <span class="w">        </span><span class="kd">super</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">5_000</span><span class="p">);</span>
 <span class="w">        </span><span class="n">setUnlocalizedName</span><span class="p">(</span><span class="s">&quot;fluid_cell&quot;</span><span class="p">);</span>
-<span class="w">        </span><span class="n">setTextureName</span><span class="p">(</span><span class="s">&quot;fluid_cell&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">setTextureName</span><span class="p">(</span><span class="n">McModding</span><span class="p">.</span><span class="na">MOD_ID</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="s">&quot;:fluid_cell&quot;</span><span class="p">);</span>
 <span class="w">        </span><span class="n">setCreativeTab</span><span class="p">(</span><span class="n">ModTab</span><span class="p">.</span><span class="na">INSTANCE</span><span class="p">);</span>
 <span class="w">    </span><span class="p">}</span>
 
